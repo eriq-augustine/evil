@@ -1,0 +1,28 @@
+#struct st
+#{
+#   int p;
+#};
+
+#fun a(int i, struct st b) int
+#{
+#   return 1;
+#}
+
+#fun b(int i, struct st j) void
+#{
+#}
+
+fun main() void
+{
+   int a;
+   
+   if (true)
+   {
+      print a;
+   }
+   else
+   {
+      a = 1;
+   }
+   read a;
+}

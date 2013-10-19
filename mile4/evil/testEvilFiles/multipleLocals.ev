@@ -1,0 +1,13 @@
+struct a
+{
+   struct a a;
+};
+
+fun main() int
+{
+   struct a stA, stB, stC;
+   
+   stA.a = null;
+
+   return 0;
+}

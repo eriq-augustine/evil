@@ -1,0 +1,24 @@
+@function main
+@function factorial 
+@local factorial:num
+
+factorial: 
+	loadinargument num, 0, r0
+	compi r0,1
+	cbreq L1,L2
+L1:
+	storeret r0 
+L2:
+	rsubi r0,1,r12
+	storeoutargument r12, 0
+	call factorial   
+	loadret r1
+	mult r0,r1,r1
+	storeret r1
+
+main:
+	loadi 4, r0
+	storeoutargument r0, 0
+	call factorial
+	loadret r1
+	println r1

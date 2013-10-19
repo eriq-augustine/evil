@@ -1,0 +1,7 @@
+int gl;
+
+fun main() void
+{
+   gl = 6;
+   print gl;
+}

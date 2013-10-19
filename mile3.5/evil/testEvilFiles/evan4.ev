@@ -1,0 +1,30 @@
+struct a {
+    int i;
+    bool b;
+};
+fun funfnu(struct a a, struct a b) int
+{
+    if(a.b)
+    {
+        print a.i;
+    }
+    if(b.b)
+    {
+        print b.i;
+    }
+    print a.i+b.i;
+    return a.i+b.i;
+}
+
+fun main() void
+{
+    struct a a, b;
+    a = new a;
+    b = new a;
+    a.i = 4;
+    b.i = 5;
+    a.b = true;
+    b.b = false;
+    print a.i+b.i;
+    print funfnu(a, b);
+}

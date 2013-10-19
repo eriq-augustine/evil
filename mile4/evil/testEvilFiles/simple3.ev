@@ -1,0 +1,17 @@
+fun funfnu(int a, int b) int
+{
+    if (a > b)
+    {
+        return a - b;
+    }
+    else
+    {
+        return b - a;
+    }
+}
+
+
+fun main() int
+{
+   return funfnu(4,10);
+}

@@ -1,0 +1,9 @@
+fun funfnu(int a, int b) int
+{
+    return a + b;
+}
+
+fun main() int
+{
+    return funfnu(7, 46);
+}

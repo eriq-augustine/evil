@@ -1,0 +1,7 @@
+int a;
+
+fun main() void
+{
+   read a;
+   print a;
+}

@@ -1,0 +1,14 @@
+struct a
+{
+   int i;
+};
+
+struct a stA;
+
+fun main() int
+{
+   stA = new a;
+   stA.i = 5;
+   
+   return stA.i;
+}

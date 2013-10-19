@@ -1,0 +1,10 @@
+fun fnu(int a, int b, int c, int d) int
+{
+   return a + b - c + d;
+}
+
+fun main() int
+{
+   print fnu(1, 2, 3, 4);
+   return fnu(1, 2, 3, 4);
+}

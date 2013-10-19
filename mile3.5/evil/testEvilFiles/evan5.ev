@@ -1,0 +1,23 @@
+struct a {
+    int i;
+    struct a a;
+};
+
+fun funfnu(int value) int
+{
+    return value - 1;
+}
+
+fun main() void
+{
+    struct a a;
+    a = new a;
+    a.a = new a;
+    a.a.a = new a;
+    a.a.a.i = 11;
+    while(a.a.a.i > 0)
+    {
+        a.a.a.i = funfnu(a.a.a.i);
+        print a.a.a.i endl;
+    }
+}

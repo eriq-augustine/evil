@@ -1,0 +1,144 @@
+digraph {
+
+	ordering=out;
+	ranksep=.4;
+	bgcolor="lightgrey"; node [shape=box, fixedsize=false, fontsize=12, fontname="Helvetica-bold", fontcolor="blue"
+		width=.25, height=.25, color="black", fillcolor="white", style="filled, solid, bold"];
+	edge [arrowsize=.5, color="black", style="bold"]
+
+  n0 [label="PROGRAM"];
+  n1 [label="TYPES"];
+  n2 [label="DECLS"];
+  n3 [label="FUNCS"];
+  n3 [label="FUNCS"];
+  n4 [label="fun"];
+  n4 [label="fun"];
+  n5 [label="foo"];
+  n6 [label="PARAMS"];
+  n6 [label="PARAMS"];
+  n7 [label="DECL"];
+  n7 [label="DECL"];
+  n8 [label="TYPE"];
+  n8 [label="TYPE"];
+  n9 [label="int"];
+  n10 [label="i"];
+  n11 [label="RETTYPE"];
+  n11 [label="RETTYPE"];
+  n12 [label="int"];
+  n13 [label="DECLS"];
+  n14 [label="STMTS"];
+  n14 [label="STMTS"];
+  n15 [label="return"];
+  n15 [label="return"];
+  n16 [label="i"];
+  n17 [label="fun"];
+  n17 [label="fun"];
+  n18 [label="bar"];
+  n19 [label="PARAMS"];
+  n19 [label="PARAMS"];
+  n20 [label="DECL"];
+  n20 [label="DECL"];
+  n21 [label="TYPE"];
+  n21 [label="TYPE"];
+  n22 [label="int"];
+  n23 [label="i"];
+  n24 [label="RETTYPE"];
+  n24 [label="RETTYPE"];
+  n25 [label="int"];
+  n26 [label="DECLS"];
+  n27 [label="STMTS"];
+  n27 [label="STMTS"];
+  n28 [label="if"];
+  n28 [label="if"];
+  n29 [label=">"];
+  n29 [label=">"];
+  n30 [label="i"];
+  n31 [label="0"];
+  n32 [label="BLOCK"];
+  n32 [label="BLOCK"];
+  n33 [label="STMTS"];
+  n33 [label="STMTS"];
+  n34 [label="return"];
+  n34 [label="return"];
+  n35 [label="1"];
+  n36 [label="BLOCK"];
+  n36 [label="BLOCK"];
+  n37 [label="STMTS"];
+  n37 [label="STMTS"];
+  n38 [label="if"];
+  n38 [label="if"];
+  n39 [label="<"];
+  n39 [label="<"];
+  n40 [label="i"];
+  n41 [label="0"];
+  n42 [label="BLOCK"];
+  n42 [label="BLOCK"];
+  n43 [label="STMTS"];
+  n43 [label="STMTS"];
+  n44 [label="return"];
+  n44 [label="return"];
+  n45 [label="NEG"];
+  n45 [label="NEG"];
+  n46 [label="1"];
+  n47 [label="BLOCK"];
+  n47 [label="BLOCK"];
+  n48 [label="STMTS"];
+  n48 [label="STMTS"];
+  n49 [label="return"];
+  n49 [label="return"];
+  n50 [label="0"];
+
+  n0 -> n1 // "PROGRAM" -> "TYPES"
+  n0 -> n2 // "PROGRAM" -> "DECLS"
+  n0 -> n3 // "PROGRAM" -> "FUNCS"
+  n3 -> n4 // "FUNCS" -> "fun"
+  n4 -> n5 // "fun" -> "foo"
+  n4 -> n6 // "fun" -> "PARAMS"
+  n6 -> n7 // "PARAMS" -> "DECL"
+  n7 -> n8 // "DECL" -> "TYPE"
+  n8 -> n9 // "TYPE" -> "int"
+  n7 -> n10 // "DECL" -> "i"
+  n4 -> n11 // "fun" -> "RETTYPE"
+  n11 -> n12 // "RETTYPE" -> "int"
+  n4 -> n13 // "fun" -> "DECLS"
+  n4 -> n14 // "fun" -> "STMTS"
+  n14 -> n15 // "STMTS" -> "return"
+  n15 -> n16 // "return" -> "i"
+  n3 -> n17 // "FUNCS" -> "fun"
+  n17 -> n18 // "fun" -> "bar"
+  n17 -> n19 // "fun" -> "PARAMS"
+  n19 -> n20 // "PARAMS" -> "DECL"
+  n20 -> n21 // "DECL" -> "TYPE"
+  n21 -> n22 // "TYPE" -> "int"
+  n20 -> n23 // "DECL" -> "i"
+  n17 -> n24 // "fun" -> "RETTYPE"
+  n24 -> n25 // "RETTYPE" -> "int"
+  n17 -> n26 // "fun" -> "DECLS"
+  n17 -> n27 // "fun" -> "STMTS"
+  n27 -> n28 // "STMTS" -> "if"
+  n28 -> n29 // "if" -> ">"
+  n29 -> n30 // ">" -> "i"
+  n29 -> n31 // ">" -> "0"
+  n28 -> n32 // "if" -> "BLOCK"
+  n32 -> n33 // "BLOCK" -> "STMTS"
+  n33 -> n34 // "STMTS" -> "return"
+  n34 -> n35 // "return" -> "1"
+  n28 -> n36 // "if" -> "BLOCK"
+  n36 -> n37 // "BLOCK" -> "STMTS"
+  n37 -> n38 // "STMTS" -> "if"
+  n38 -> n39 // "if" -> "<"
+  n39 -> n40 // "<" -> "i"
+  n39 -> n41 // "<" -> "0"
+  n38 -> n42 // "if" -> "BLOCK"
+  n42 -> n43 // "BLOCK" -> "STMTS"
+  n43 -> n44 // "STMTS" -> "return"
+  n44 -> n45 // "return" -> "NEG"
+  n45 -> n46 // "NEG" -> "1"
+  n38 -> n47 // "if" -> "BLOCK"
+  n47 -> n48 // "BLOCK" -> "STMTS"
+  n48 -> n49 // "STMTS" -> "return"
+  n49 -> n50 // "return" -> "0"
+
+}
+
+JGHJG

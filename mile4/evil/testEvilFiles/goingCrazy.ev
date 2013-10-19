@@ -1,0 +1,28 @@
+struct a
+{
+    int a;
+    bool b;
+};
+
+int gA;
+bool gB;
+
+fun main() int
+{
+    struct a a;
+    a = new a;
+    a.a = 5;
+    a.b = true;
+    if(a.b)
+    {
+        print 6 endl;
+        a.a = 6;
+    }
+    else
+    {
+        print 7 endl;
+        a.a = 7;
+    }
+    print a.a endl;
+    return a.a;
+}

@@ -1,0 +1,15 @@
+struct a
+{
+    int i;
+};
+
+fun fufu(struct a a) struct a
+{
+    a.i = 5;
+    return a;
+}
+
+fun main() void
+{
+    print fufu(new a).i endl;
+}

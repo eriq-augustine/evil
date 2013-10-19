@@ -1,0 +1,158 @@
+#return is the register being passed back up the tree
+
+
+#computes a register to be used for a variable name or immidiate
+computeRegister(x)
+   if x is a local || formal
+      return x's register
+   else if x is a global
+      load x into a new register
+      return that register
+   else if x is an immidiate
+      load the immidiate into a new register
+      return that register
+   else if x is false
+      load 0 into a new register
+      return that register
+   else if x is true
+      load 1 into a new register
+      return that register
+
+
+#ARITHMETIC OPERATIONS
+
+
+#does add instruction
+add(a+b)
+   ra = computeRegister(a)
+   rb = computeRegister(b)
+   ret = getNewRegister
+   add ra, rb, ret
+   return ret
+
+#does subtraction instruction
+sub(a-b)
+   ra = computeRegister(a)
+   rb = computeRegister(b)
+   ret = getNewRegister
+   sub ra, rb, ret
+   return ret
+
+#does multiplication instruction
+mult(a*b)
+   ra = computeRegister(a)
+   rb = computeRegister(b)
+   ret = getNewRegister
+   mult ra,rb,ret
+   return ret
+   
+#does division instruction
+div(a/b)
+   ra = comptueRegister(a)
+   rb = comptueRegister(b)
+   ret = getNewRegister
+   div ra, rb, ret
+   return ret 
+
+
+#BOOLEAN OPERATIONS (set condition codes)
+
+#does and instruction
+and(a && b)
+   ra = computeRegister(a)
+   rb = computeRegister(b)
+   ret = getNewRegister
+   and ra, rb, ret
+   compi ret, 1
+
+#does or instruction
+or(a || b)
+   ra = computeRegister(a)
+   rb = computeRegister(b)
+   ret = getNewRegister
+   or ra, rb, ret
+   compi ret, 1
+
+#does a not instruction
+not(!a)
+   ra = computeRegister(a)
+   compi ra, 0
+
+#does a < instruction
+lt(a, b)
+   cmp(a, b)
+   ret = getNewRegister
+   mov 0, ret
+   movlt 1, ret
+   return ret
+
+#does a <= instruction
+le(a, b)
+   cmp(a,b)
+   ret = getNewRegister
+   mov 0, ret
+   movle 1, ret
+   return ret
+
+#does a > instruction
+gt(a, b) 
+   cmp(a,b)
+   ret = getNewRegister
+   mov 0, ret
+   movgt 1, ret
+   return ret
+
+#does a >= instruction
+ge(a, b)
+   cmp(a,b)
+   ret = getNewRegister
+   mov 0, ret
+   movgt 1, ret
+   return ret
+
+#does a == instruction
+eq(a, b)
+   cmp(a,b)
+   ret = getNewRegister
+   mov 0, ret
+   moveq 1, ret
+   return ret
+
+#does a != instruction
+ne(a, b)
+   cmp(a, b)
+   ret = getNewRegister
+   mov 0, ret
+   movne 1, ret
+   return ret
+
+#sets the condition codes for a comparison
+cmp(a, b)
+   ra = computeRegister(a)
+   rb = computeRegister(b)
+   comp a, b
+
+#invocation
+f(a,b ... g)
+   loadinargument a, a, getNewRegister
+   loadinargument b, b, getNewRegister
+   .
+   .
+   .
+   loadinargument g, g, getNewRegister
+   call f
+
+#does a print instruction
+print a (endl)?
+   ra = computeRegister(a)
+   if endl is there
+      println ra
+   else
+      print ra
+      
+#does a read instruction
+read a
+   ra = computeRegister(a)
+   read a
+
+

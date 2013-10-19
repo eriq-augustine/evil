@@ -1,0 +1,11 @@
+fun funfnu(int a) void
+{
+    read a;
+    print a;
+}
+
+fun main() void
+{
+    int a;
+    funfnu(a);
+}

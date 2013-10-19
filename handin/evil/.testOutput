@@ -1,0 +1,83 @@
+RESULTS!
+Previously Failed Results:
+benchmarks/fail/BenchMarkishTopics/_script_ass.s
+0.00user 0.00system 0:00.01elapsed 0%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/Fibonacci/_script_ass.s
+26.64user 0.00system 0:26.65elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/OptimizationBenchmark/_script_ass.s
+0.12user 0.00system 0:00.12elapsed 94%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/TicTac/_script_ass.s
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/bert/_script_ass.s
+0.00user 0.00system 0:00.02elapsed 0%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/biggest/_script_ass.s
+0.00user 0.00system 0:00.02elapsed 0%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/binaryConverter/_script_ass.s
+11.54user 0.00system 0:11.56elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/creativeBenchMarkName/_script_ass.s
+13.20user 0.00system 0:13.22elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/fact_frenzy/_script_ass.s
+8.07user 0.00system 0:08.09elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/fact_sum/_script_ass.s
+0.00user 0.00system 0:00.02elapsed 0%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/hailstone/_script_ass.s
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/hanoi_benchmark/_script_ass.s
+65.56user 0.00system 1:05.57elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/killerBubbles/_script_ass.s
+32.06user 0.00system 0:32.07elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/mile1/_script_ass.s
+0.16user 0.00system 0:00.17elapsed 90%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/primes/_script_ass.s
+1.25user 0.00system 0:01.26elapsed 98%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/programBreaker/_script_ass.s
+0.03user 0.00system 0:00.03elapsed 78%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/shapeAreas/_script_ass.s
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/stats/_script_ass.s
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/uncreativeBenchmark/_script_ass.s
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+benchmarks/fail/wasteOfCycles/_script_ass.s
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+0minor)pagefaults 0swaps
+
+Previously Passed Files:

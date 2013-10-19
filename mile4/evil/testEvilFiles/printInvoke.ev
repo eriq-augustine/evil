@@ -1,0 +1,22 @@
+struct a
+{
+   int val;
+   struct a a;
+};
+
+fun fnu(struct a inA) struct a
+{
+   return inA;
+}
+
+fun main() void
+{
+   struct a stA;
+
+   stA = new struct a;
+   
+   stA.val = 5;
+   print fnu(stA).val;
+
+   print -999 endl;
+}

@@ -1,0 +1,10 @@
+fun main() void
+{
+    int a;
+    a = 10;
+    while (a >= 0)
+    {
+        print a endl;
+        a = a - 1;
+    }
+}

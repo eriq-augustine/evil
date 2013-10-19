@@ -1,0 +1,17 @@
+struct myStruct
+{
+   int i;
+   bool b;
+   struct myStruct st;
+};
+
+fun main() void
+{
+   struct myStruct ref;
+
+   ref = new myStruct;
+
+   ref.i = 7;
+
+   print ref.i;
+}

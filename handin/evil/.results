@@ -1,0 +1,23 @@
+RESULTS!
+Previously Failed Results:
+benchmarks/fail/BenchMarkishTopics/_script_ass.s passed!
+benchmarks/fail/Fibonacci/_script_ass.s passed!
+benchmarks/fail/OptimizationBenchmark/_script_ass.s passed!
+benchmarks/fail/TicTac/_script_ass.s passed!
+benchmarks/fail/bert/_script_ass.s passed!
+benchmarks/fail/biggest/_script_ass.s passed!
+benchmarks/fail/binaryConverter/_script_ass.s passed!
+benchmarks/fail/creativeBenchMarkName/_script_ass.s passed!
+benchmarks/fail/fact_frenzy/_script_ass.s passed!
+benchmarks/fail/fact_sum/_script_ass.s passed!
+benchmarks/fail/hailstone/_script_ass.s passed!
+benchmarks/fail/hanoi_benchmark/_script_ass.s passed!
+benchmarks/fail/killerBubbles/_script_ass.s passed!
+benchmarks/fail/mile1/_script_ass.s passed!
+benchmarks/fail/primes/_script_ass.s passed!
+benchmarks/fail/programBreaker/_script_ass.s passed!
+benchmarks/fail/shapeAreas/_script_ass.s passed!
+benchmarks/fail/stats/_script_ass.s passed!
+benchmarks/fail/uncreativeBenchmark/_script_ass.s passed!
+benchmarks/fail/wasteOfCycles/_script_ass.s passed!
+Previously Passed Results:

@@ -1,0 +1,35 @@
+Hello!
+
+There is a makefile to build the project. You should 'make' or 'make all' to build the project.
+To clean the project, you should 'make clean'.
+Note: To properly build the project normally ruby 1.9 or higher needs to be instaled.
+For the sake of your convience those files were pre-built and will not be removed by a 'make clean'.
+
+To run the project, use:
+'java evil.Evil [options] <Evil File> [more options]'
+Note that the project uses java packages, so you must either be in the main folder (the one with the makefile) or
+specify the main folder in the classpath.
+
+Options: (may be in any order)
+'-displayAST' - Print out the AST.
+'-debug' - Print out debuging information about the symbol and structure tables.
+'-dumpIL' - Print out the ILOC to a file with the same name (and path) as the Evil file.
+'-c' - Select the name of the file to compile to.
+'--no-compile' - Do not compile. (Other options can still take place like -dumpIL).
+'-oA' - Run all optimizations.
+'-oC' - Run the Copy Propigation optimization.
+'-oCF' - Run the Constant Folding optimization.
+'-oU' - Run the Useless Code Removal optimization.
+'-oM' - Run the Messager.
+'--insane' - Do not run any sanity checks.
+'--no-sanity' - Do not run any sanity checks.
+
+Testing:
+There are two scripts that you may find useful:
+benchCompile.sh - 
+   Compiles all the benchmarks. If a benchmark fails to compile, it will be moved to the folder in 'benchmarks/fail'.
+benchTest.sh - 
+   (Must be run on sparc). Tests all benchmarks. This must be run after benchCompile.sh. After this runs all passing tests
+   will be in 'benchmarks/pass' and all failing benchmarks will be in 'benchmarks/fail'. 
+   Note that the benchmark: 'mile1' must be seen as a failing benchmark by this script unless the return is changed 
+   from '1' to '0' (the non-zero return tricksa the script).

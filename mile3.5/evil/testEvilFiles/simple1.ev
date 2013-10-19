@@ -1,0 +1,15 @@
+struct st
+{
+   int i;
+   struct st s;
+};
+
+fun main() void
+{
+   struct st funfun;
+   int a;
+
+   #funfun.s.s.i.i = 0;
+   a = funfun.i;
+   #read i;
+}

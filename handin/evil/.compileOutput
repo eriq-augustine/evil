@@ -1,0 +1,255 @@
+COMPILE OUTPUT:
+Previously Failed Files:
+benchmarks/fail/BenchMarkishTopics/BenchMarkishTopics.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/BenchMarkishTopics/_script_ass.s
+0.29user 0.05system 0:00.55elapsed 61%CPU (0avgtext+0avgdata 0maxresident)k
+24inputs+88outputs (1major+4550minor)pagefaults 0swaps
+
+benchmarks/fail/bert/bert.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/bert/_script_ass.s
+0.41user 0.05system 0:00.46elapsed 98%CPU (0avgtext+0avgdata 0maxresident)k
+24inputs+120outputs (1major+5762minor)pagefaults 0swaps
+
+benchmarks/fail/biggest/biggest.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/biggest/_script_ass.s
+0.23user 0.03system 0:00.31elapsed 84%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+80outputs (1major+4511minor)pagefaults 0swaps
+
+benchmarks/fail/binaryConverter/binaryConverter.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/binaryConverter/_script_ass.s
+0.22user 0.04system 0:00.31elapsed 83%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+88outputs (1major+4553minor)pagefaults 0swaps
+
+benchmarks/fail/creativeBenchMarkName/creativeBenchMarkName.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/creativeBenchMarkName/_script_ass.s
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+0.28user 0.05system 0:00.36elapsed 90%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+88outputs (1major+4708minor)pagefaults 0swaps
+
+benchmarks/fail/fact_frenzy/fact_frenzy.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/fact_frenzy/_script_ass.s
+0.21user 0.05system 0:00.27elapsed 94%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+80outputs (1major+4612minor)pagefaults 0swaps
+
+benchmarks/fail/fact_sum/fact_sum.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/fact_sum/_script_ass.s
+0.21user 0.04system 0:00.25elapsed 97%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+80outputs (1major+4498minor)pagefaults 0swaps
+
+benchmarks/fail/Fibonacci/Fibonacci.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/Fibonacci/_script_ass.s
+0.20user 0.04system 0:00.25elapsed 93%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+80outputs (1major+4439minor)pagefaults 0swaps
+
+benchmarks/fail/hailstone/hailstone.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/hailstone/_script_ass.s
+0.24user 0.02system 0:00.31elapsed 84%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+80outputs (1major+4479minor)pagefaults 0swaps
+
+benchmarks/fail/hanoi_benchmark/hanoi_benchmark.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/hanoi_benchmark/_script_ass.s
+0.26user 0.05system 0:00.31elapsed 102%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+104outputs (1major+4788minor)pagefaults 0swaps
+
+benchmarks/fail/killerBubbles/killerBubbles.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/killerBubbles/_script_ass.s
+0.25user 0.05system 0:00.32elapsed 94%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+88outputs (1major+4673minor)pagefaults 0swaps
+
+benchmarks/fail/mile1/mile1.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/mile1/_script_ass.s
+0.23user 0.02system 0:00.26elapsed 95%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+80outputs (1major+4493minor)pagefaults 0swaps
+
+benchmarks/fail/OptimizationBenchmark/OptimizationBenchmark.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/OptimizationBenchmark/_script_ass.s
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+0.84user 0.06system 0:00.67elapsed 133%CPU (0avgtext+0avgdata 0maxresident)k
+16inputs+128outputs (1major+9525minor)pagefaults 0swaps
+
+benchmarks/fail/primes/primes.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/primes/_script_ass.s
+0.22user 0.05system 0:00.31elapsed 85%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+80outputs (1major+4665minor)pagefaults 0swaps
+
+benchmarks/fail/programBreaker/programBreaker.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/programBreaker/_script_ass.s
+0.22user 0.03system 0:00.32elapsed 79%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+80outputs (1major+4510minor)pagefaults 0swaps
+
+benchmarks/fail/shapeAreas/shapeAreas.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/shapeAreas/_script_ass.s
+Warning: Unable to find a valid coloring, must spill.
+Warning: Unable to find a valid coloring, must spill.
+0.22user 0.06system 0:00.31elapsed 93%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+88outputs (1major+4669minor)pagefaults 0swaps
+
+benchmarks/fail/stats/stats.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/stats/_script_ass.s
+0.27user 0.05system 0:00.31elapsed 102%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+88outputs (1major+4843minor)pagefaults 0swaps
+
+benchmarks/fail/TicTac/TicTac.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/TicTac/_script_ass.s
+Warning: Unable to find a valid coloring, must spill.
+0.42user 0.06system 0:00.51elapsed 95%CPU (0avgtext+0avgdata 0maxresident)k
+16inputs+104outputs (1major+5558minor)pagefaults 0swaps
+
+benchmarks/fail/uncreativeBenchmark/uncreativeBenchmark.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/uncreativeBenchmark/_script_ass.s
+0.34user 0.06system 0:00.37elapsed 106%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+96outputs (1major+5148minor)pagefaults 0swaps
+
+benchmarks/fail/wasteOfCycles/wasteOfCycles.ev
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Running Constant Folding Optimization
+Beginning CFG building
+Finished CFG building
+Running All Optimizations!
+Dumping Sparc to benchmarks/fail/wasteOfCycles/_script_ass.s
+0.20user 0.03system 0:00.25elapsed 94%CPU (0avgtext+0avgdata 0maxresident)k
+8inputs+80outputs (1major+4443minor)pagefaults 0swaps
+
+Previously Passed Files:

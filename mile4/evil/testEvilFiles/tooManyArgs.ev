@@ -1,0 +1,9 @@
+fun tooMany(int a, int b, int c, int d, int e, int f, int g) int
+{
+   return a + b + c + d + e + f + g;
+}
+
+fun main() int
+{
+   return tooMany(1, 2, 3, 4, 5, 6, 7);
+}

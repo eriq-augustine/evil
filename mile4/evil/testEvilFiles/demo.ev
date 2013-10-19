@@ -1,0 +1,48 @@
+struct a
+{
+    int a;
+    bool b;
+};
+
+int foo;
+
+fun funfnu(int a, int b) int
+{
+    if(a > b)
+    {
+        print a endl;
+        return a - b;
+    }
+    else
+    {
+        print b endl;
+        return b - a;
+    }
+}
+
+fun main() void
+{
+    int a, b;
+    struct a c;
+    c = new a;
+    c.a = -1;
+    c.b = true;
+    a = 5;
+    b = 52;
+    while(c.b)
+    {
+        if(b > a)
+        {
+            b = funfnu(a, b);
+        }
+        else
+        {
+            a = funfnu(a, b);
+            c.b = false;
+        }
+    }
+    print c.a endl;
+
+    foo = -2;
+    print foo endl;
+}

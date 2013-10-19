@@ -1,0 +1,30 @@
+struct A
+{
+   int i;
+   int j1;
+   bool b;
+   struct A a;
+};
+struct B
+{
+   struct A a;
+};
+
+int i, j, k;
+struct B b, bb, bbb;
+bool bob;
+
+fun f(int i, struct B j) struct A
+{
+   return b.a;
+}
+
+fun g(int i, struct B j) int
+{
+   return 3;
+}
+
+fun main() void
+{
+   print f(g(1,new B),new B).i endl;
+}

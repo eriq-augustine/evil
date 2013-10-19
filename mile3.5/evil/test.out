@@ -1,0 +1,168 @@
+digraph {
+
+	ordering=out;
+	ranksep=.4;
+	bgcolor="lightgrey"; node [shape=box, fixedsize=false, fontsize=12, fontname="Helvetica-bold", fontcolor="blue"
+		width=.25, height=.25, color="black", fillcolor="white", style="filled, solid, bold"];
+	edge [arrowsize=.5, color="black", style="bold"]
+
+  n0 [label="PROGRAM"];
+  n1 [label="TYPES"];
+  n1 [label="TYPES"];
+  n2 [label="struct"];
+  n2 [label="struct"];
+  n3 [label="a"];
+  n4 [label="DECL"];
+  n4 [label="DECL"];
+  n5 [label="TYPE"];
+  n5 [label="TYPE"];
+  n6 [label="int"];
+  n7 [label="i"];
+  n8 [label="DECLS"];
+  n9 [label="FUNCS"];
+  n9 [label="FUNCS"];
+  n10 [label="fun"];
+  n10 [label="fun"];
+  n11 [label="fufu"];
+  n12 [label="PARAMS"];
+  n12 [label="PARAMS"];
+  n13 [label="DECL"];
+  n13 [label="DECL"];
+  n14 [label="TYPE"];
+  n14 [label="TYPE"];
+  n15 [label="struct"];
+  n15 [label="struct"];
+  n16 [label="a"];
+  n17 [label="a"];
+  n18 [label="RETTYPE"];
+  n18 [label="RETTYPE"];
+  n19 [label="struct"];
+  n19 [label="struct"];
+  n20 [label="a"];
+  n21 [label="DECLS"];
+  n22 [label="STMTS"];
+  n22 [label="STMTS"];
+  n23 [label="return"];
+  n23 [label="return"];
+  n24 [label="a"];
+  n25 [label="fun"];
+  n25 [label="fun"];
+  n26 [label="main"];
+  n27 [label="PARAMS"];
+  n28 [label="RETTYPE"];
+  n28 [label="RETTYPE"];
+  n29 [label="void"];
+  n30 [label="DECLS"];
+  n30 [label="DECLS"];
+  n31 [label="DECLLIST"];
+  n31 [label="DECLLIST"];
+  n32 [label="TYPE"];
+  n32 [label="TYPE"];
+  n33 [label="struct"];
+  n33 [label="struct"];
+  n34 [label="a"];
+  n35 [label="a"];
+  n36 [label="STMTS"];
+  n36 [label="STMTS"];
+  n37 [label="print"];
+  n37 [label="print"];
+  n38 [label="."];
+  n38 [label="."];
+  n39 [label="INVOKE"];
+  n39 [label="INVOKE"];
+  n40 [label="fufu"];
+  n41 [label="ARGS"];
+  n41 [label="ARGS"];
+  n42 [label="a"];
+  n43 [label="i"];
+  n44 [label="endl"];
+
+  n0 -> n1 // "PROGRAM" -> "TYPES"
+  n1 -> n2 // "TYPES" -> "struct"
+  n2 -> n3 // "struct" -> "a"
+  n2 -> n4 // "struct" -> "DECL"
+  n4 -> n5 // "DECL" -> "TYPE"
+  n5 -> n6 // "TYPE" -> "int"
+  n4 -> n7 // "DECL" -> "i"
+  n0 -> n8 // "PROGRAM" -> "DECLS"
+  n0 -> n9 // "PROGRAM" -> "FUNCS"
+  n9 -> n10 // "FUNCS" -> "fun"
+  n10 -> n11 // "fun" -> "fufu"
+  n10 -> n12 // "fun" -> "PARAMS"
+  n12 -> n13 // "PARAMS" -> "DECL"
+  n13 -> n14 // "DECL" -> "TYPE"
+  n14 -> n15 // "TYPE" -> "struct"
+  n15 -> n16 // "struct" -> "a"
+  n13 -> n17 // "DECL" -> "a"
+  n10 -> n18 // "fun" -> "RETTYPE"
+  n18 -> n19 // "RETTYPE" -> "struct"
+  n19 -> n20 // "struct" -> "a"
+  n10 -> n21 // "fun" -> "DECLS"
+  n10 -> n22 // "fun" -> "STMTS"
+  n22 -> n23 // "STMTS" -> "return"
+  n23 -> n24 // "return" -> "a"
+  n9 -> n25 // "FUNCS" -> "fun"
+  n25 -> n26 // "fun" -> "main"
+  n25 -> n27 // "fun" -> "PARAMS"
+  n25 -> n28 // "fun" -> "RETTYPE"
+  n28 -> n29 // "RETTYPE" -> "void"
+  n25 -> n30 // "fun" -> "DECLS"
+  n30 -> n31 // "DECLS" -> "DECLLIST"
+  n31 -> n32 // "DECLLIST" -> "TYPE"
+  n32 -> n33 // "TYPE" -> "struct"
+  n33 -> n34 // "struct" -> "a"
+  n31 -> n35 // "DECLLIST" -> "a"
+  n25 -> n36 // "fun" -> "STMTS"
+  n36 -> n37 // "STMTS" -> "print"
+  n37 -> n38 // "print" -> "."
+  n38 -> n39 // "." -> "INVOKE"
+  n39 -> n40 // "INVOKE" -> "fufu"
+  n39 -> n41 // "INVOKE" -> "ARGS"
+  n41 -> n42 // "ARGS" -> "a"
+  n38 -> n43 // "." -> "i"
+  n37 -> n44 // "print" -> "endl"
+
+}
+
+Beginning Typechecking...
+Finished Typechecking... Congrats!
+Beginning CFG building
+Symbols:
+Level: 0
+{main=Function: main, fufu=Function: fufu}
+
+Structs:
+{a=struct
+{
+   Primitive i
+}
+}
+
+Passed in Graph (usually main):
+Block ID: 3, tag: main
+ENTRY: main
+jumpi TAG4
+
+Block ID: 4, tag: TAG4
+print null
+jumpi TAG5
+
+Block ID: 5, tag: TAG5
+ret
+EXIT: main
+
+All unreached nodes (usually functions):
+Block ID: 0, tag: fufu
+ENTRY: fufu
+jumpi TAG1
+
+Block ID: 1, tag: TAG1
+ret
+jumpi TAG2
+
+Block ID: 2, tag: TAG2
+ret
+EXIT: fufu
+
+
+Finished CFG building

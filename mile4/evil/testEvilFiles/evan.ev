@@ -1,0 +1,12 @@
+struct a {
+    int i;
+};
+
+fun main() void
+{
+    struct a a;
+    a = new a;
+    a.i = 5;
+    delete a;
+    print a.i endl;
+}

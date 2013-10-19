@@ -1,0 +1,28 @@
+struct a
+{
+   int val;
+   struct a a;
+};
+
+fun fnu() struct a
+{
+   struct a stA;
+   struct a stB;
+
+   stA = new a;
+   stB = new a;
+
+   read stB.val;
+   stA.a = stB;
+
+   #print stB.val endl;
+   #print stA.a.val endl;
+
+   return stA;
+}
+
+fun main() int
+{
+   print fnu().a.val endl;
+   return 1;
+}
